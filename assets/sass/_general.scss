@@ -52,6 +52,10 @@ a {
   }
 }
 
+.general-container {
+  position: relative;
+}
+
 @media (max-width: 510px) {
   body {
     padding-bottom: 130px;

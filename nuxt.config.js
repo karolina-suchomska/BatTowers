@@ -28,7 +28,7 @@ export default {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/images/favicon.ico'
+        href: '/images/favicon.png'
       }
     ]
   },
@@ -38,7 +38,7 @@ export default {
   manifest: {
     icons: [
       {
-        src: '/images/favicon.ico',
+        src: '/images/favicon.png',
         sizes: '192x192',
         type: 'image/png'
       }
