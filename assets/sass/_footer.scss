@@ -1,3 +1,25 @@
 .footer {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
 
+  .footer-text {
+    .footer-row {
+      display: flex;
+      align-items: center;
+
+      .footer-icon {
+        max-width: 40px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .footer-img {
+    max-width: 200px;
+    max-height: 220px;
+  }
 }

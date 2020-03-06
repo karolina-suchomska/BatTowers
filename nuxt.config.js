@@ -16,7 +16,7 @@ export default {
       },
       {
         name: 'author',
-        content: 'Karolina Suchomska'
+        content: 'Karolina'
       },
       {
         hid: 'description',
@@ -28,7 +28,7 @@ export default {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/images/favicon.png'
+        href: 'images/favicon.ico'
       }
     ]
   },
@@ -38,9 +38,9 @@ export default {
   manifest: {
     icons: [
       {
-        src: '/images/favicon.png',
+        src: 'images/favicon.ico',
         sizes: '192x192',
-        type: 'image/png'
+        type: 'image/ico'
       }
     ]
   },
