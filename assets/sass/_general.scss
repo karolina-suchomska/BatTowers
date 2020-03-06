@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  padding-bottom: 40px;
+  background-color: $white;
+  color: $text-primary;
+  font-size: 16px;
+  font-family: 'Lato', 'regular', sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+input,
+textarea,
+button {
+  outline: none;
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+button,
+select {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: $text-primary;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:visited {
+    color: $text-primary;
+  }
+}
+
+@media (max-width: 510px) {
+  body {
+    padding-bottom: 130px;
+  }
+}
+
+@media (max-width: 390px) {
+  body {
+    padding-bottom: 160px;
+  }
+}
