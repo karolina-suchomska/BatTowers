@@ -6,7 +6,6 @@ body {
   position: relative;
   min-height: 100vh;
   margin: 0;
-  padding-bottom: 40px;
   background-color: $white;
   color: $text-primary;
   font-size: 16px;
@@ -54,16 +53,4 @@ a {
 
 .general-container {
   position: relative;
-}
-
-@media (max-width: 510px) {
-  body {
-    padding-bottom: 130px;
-  }
-}
-
-@media (max-width: 390px) {
-  body {
-    padding-bottom: 160px;
-  }
 }

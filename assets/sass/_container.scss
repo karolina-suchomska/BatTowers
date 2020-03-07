@@ -1,5 +1,28 @@
 .container {
   position: relative;
-  margin-left: 140px;
-  padding-bottom: 300px;
+  height: 100%;
+  margin-left: 240px;
+  background-image: url('../../static/images/img3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+
+  .box {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  h1 {
+    position: absolute;
+    top: 33%;
+    right: 0;
+    color: $color-secondary;
+    background-color: rgba($white, 0.9);
+    font-size: 74px;
+    padding: 40px 80px;
+    border-radius: 10px 0 0 10px;
+  }
 }
