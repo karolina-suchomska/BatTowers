@@ -2,14 +2,38 @@
   <div class="general-container">
     <Belt />
     <div class="container">
-      <div class="box">
+      <div
+        :class="scroll ? 'blur' : ''"
+        class="box"
+      >
         <h1>
           Bat Towers Management
         </h1>
+        <button
+          v-if="!scroll"
+          @click="click()"
+          class="btn-scroll"
+        >
+          <span />
+          <span />
+          <span />
+        </button>
       </div>
-      <div class="box">
+      <div
+        id="firstDescriptions"
+        :class="scroll ? 'blur' : ''"
+        class="box"
+      >
         <Descriptions
-          :descriptions="descriptions"
+          :descriptions="lang.firstDescriptions"
+        />
+      </div>
+      <div
+        :class="scroll ? 'blur' : ''"
+        class="box"
+      >
+        <Descriptions
+          :descriptions="lang.secondDescriptions"
         />
       </div>
     </div>
@@ -27,16 +51,41 @@ export default {
   },
   data () {
     return {
-      descriptions: [
+      scroll: false
+    }
+  },
+  computed: {
+    lang () {
+      return this.$store.state.lang.lang
+    }
+  },
+  watch: {
+    $route () {
+      this.readingHeight()
+    }
+  },
+  mounted () {
+    window.addEventListener('scroll', this.readingHeight)
+    this.readingHeight()
+  },
+  beforeDestroy () {
+    window.removeEventListener('scroll', this.readingHeight)
+  },
+  methods: {
+    readingHeight () {
+      if (window.scrollY > 200) {
+        this.scroll = true
+      } else {
+        this.scroll = false
+      }
+    },
+    click () {
+      document.getElementById('firstDescriptions').scrollIntoView(
         {
-          title: 'Profesjonalne zarządzanie wynajmem',
-          content: 'Powierzając nam zarządzanie wynajmem swojego apartamentu, możesz spać spokojnie - oddajesz go w ręce doświadczonych profesjonalistów. Zadbamy o to, żeby Twój apartament pracował dla Ciebie, zapewniając maksymalny zysk przy minimalnej stracie czasu, a Twoim gościom - spokój, komfort i obsługę na najwyższym poziomie.'
+          behavior: 'smooth'
         },
-        {
-          title: 'Wynajem długo- i krótkoterminowy',
-          content: 'Dzięki nam możesz liczyć na zainteresowanie Twoim apartamentem zarówno wśród turystów, którzy do Batumi zawitali na kilka dni lub tygodni, jak i osób, które szukają w nim miejsca na dłużej.'
-        }
-      ]
+        true
+      )
     }
   }
 }

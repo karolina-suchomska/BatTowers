@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  z-index: -1;
+  z-index: 0;
 
   .box {
     height: 100vh;
@@ -15,9 +15,13 @@
     align-items: center;
   }
 
+  .blur {
+    backdrop-filter: blur(2px);
+  }
+
   h1 {
     position: absolute;
-    top: 33%;
+    top: 56vh;
     right: 0;
     color: $color-secondary;
     background-color: rgba($white, 0.9);

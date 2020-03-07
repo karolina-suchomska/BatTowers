@@ -3,8 +3,9 @@
   width: 240px;
   height: 100vh;
   background-color: $color-primary;
+  z-index: 1;
 
-  .belt-img {
+  .img {
     max-width: 250px;
     max-height: 280px;
     padding: 15px;
@@ -13,19 +14,24 @@
     margin: 20px;
   }
 
-  .belt-text {
+  .text {
     position: absolute;
     bottom: 30px;
     left: 10px;
     color: $white;
 
-    .belt-row {
+    .row {
       display: flex;
       align-items: center;
 
-      .belt-icon {
+      .icon {
         max-width: 40px;
         margin-right: 10px;
+      }
+
+      &.lang {
+        justify-content: space-around;
+        margin: 20px auto;
       }
     }
   }
