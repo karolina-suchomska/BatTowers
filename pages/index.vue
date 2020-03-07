@@ -11,7 +11,7 @@
         </h1>
         <button
           v-if="!scroll"
-          @click="click()"
+          @click="clickToFirstDescriptions()"
           class="btn-scroll"
         >
           <span />
@@ -27,8 +27,18 @@
         <Descriptions
           :descriptions="lang.firstDescriptions"
         />
+        <button
+          v-if="scroll2"
+          @click="clickToSecondDescriptions()"
+          class="btn-scroll center"
+        >
+          <span />
+          <span />
+          <span />
+        </button>
       </div>
       <div
+        id="secondDescriptions"
         :class="scroll ? 'blur' : ''"
         class="box"
       >
@@ -51,7 +61,8 @@ export default {
   },
   data () {
     return {
-      scroll: false
+      scroll: false,
+      scroll2: true
     }
   },
   computed: {
@@ -78,9 +89,23 @@ export default {
       } else {
         this.scroll = false
       }
+
+      if (window.scrollY > 1200) {
+        this.scroll2 = false
+      } else {
+        this.scroll2 = true
+      }
     },
-    click () {
+    clickToFirstDescriptions () {
       document.getElementById('firstDescriptions').scrollIntoView(
+        {
+          behavior: 'smooth'
+        },
+        true
+      )
+    },
+    clickToSecondDescriptions () {
+      document.getElementById('secondDescriptions').scrollIntoView(
         {
           behavior: 'smooth'
         },

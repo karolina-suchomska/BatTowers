@@ -10,6 +10,14 @@
     background-color: $color-primary;
   }
 
+  h3 {
+    color: $color-tertiary;
+
+    &.white {
+      color: $white;
+    }
+  }
+
   p {
     margin: 10px 50px;
     font-size: 20px;

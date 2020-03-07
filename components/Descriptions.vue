@@ -4,7 +4,9 @@
       v-for="(description, index) in descriptions"
       :key="index"
     >
-      <h3>
+      <h3
+        :class="description.color ? 'white' : ''"
+      >
         {{ description.title }}
       </h3>
       <p>
