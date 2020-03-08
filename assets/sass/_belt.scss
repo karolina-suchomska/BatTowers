@@ -17,15 +17,24 @@
   .text {
     position: absolute;
     bottom: 30px;
-    left: 10px;
+    left: 24px;
     color: $white;
+
+    a {
+      color: $white;
+
+      &:visited {
+        color: $white;
+      }
+    }
 
     .row {
       display: flex;
       align-items: center;
+      margin: 18px 0;
 
       .icon {
-        max-width: 40px;
+        max-width: 18px;
         margin-right: 10px;
       }
 

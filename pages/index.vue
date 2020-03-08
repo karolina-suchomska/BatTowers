@@ -1,11 +1,8 @@
 <template>
   <div class="general-container">
     <Belt />
-    <div class="container">
-      <div
-        :class="scroll ? 'blur' : ''"
-        class="box"
-      >
+    <div :class="scroll ? 'blur' : ''" class="container">
+      <div class="box">
         <h1>
           Bat Towers Management
         </h1>
@@ -21,7 +18,6 @@
       </div>
       <div
         id="firstDescriptions"
-        :class="scroll ? 'blur' : ''"
         class="box"
       >
         <Descriptions
@@ -39,12 +35,32 @@
       </div>
       <div
         id="secondDescriptions"
-        :class="scroll ? 'blur' : ''"
         class="box"
       >
         <Descriptions
           :descriptions="lang.secondDescriptions"
         />
+        <button
+          v-if="scroll3"
+          @click="clickToQuestionnaire()"
+          class="btn-scroll center"
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+      </div>
+      <div
+        id="questionnaire"
+        class="box"
+      >
+        <Questionnaire />
+      </div>
+      <div
+        id="gallery"
+        class="box"
+      >
+        Galeria
       </div>
     </div>
   </div>
@@ -53,16 +69,19 @@
 <script>
 import Belt from '@/components/Belt'
 import Descriptions from '@/components/Descriptions'
+import Questionnaire from '@/components/Questionnaire'
 
 export default {
   components: {
     Belt,
-    Descriptions
+    Descriptions,
+    Questionnaire
   },
   data () {
     return {
       scroll: false,
-      scroll2: true
+      scroll2: true,
+      scroll3: true
     }
   },
   computed: {
@@ -95,6 +114,12 @@ export default {
       } else {
         this.scroll2 = true
       }
+
+      if (window.scrollY > 2000) {
+        this.scroll3 = false
+      } else {
+        this.scroll3 = true
+      }
     },
     clickToFirstDescriptions () {
       document.getElementById('firstDescriptions').scrollIntoView(
@@ -106,6 +131,14 @@ export default {
     },
     clickToSecondDescriptions () {
       document.getElementById('secondDescriptions').scrollIntoView(
+        {
+          behavior: 'smooth'
+        },
+        true
+      )
+    },
+    clickToQuestionnaire () {
+      document.getElementById('questionnaire').scrollIntoView(
         {
           behavior: 'smooth'
         },

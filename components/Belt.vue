@@ -8,23 +8,23 @@
     <div class="text">
       <div class="row">
         <img
-          src="images/logo.png"
-          alt="icon"
+          src="images/mail.svg"
+          alt="icon-mail"
           class="icon"
         >
-        <p>
+        <a href="mailto:info@BatTowers.com">
           info@BatTowers.com
-        </p>
+        </a>
       </div>
       <div class="row">
         <img
-          src="images/logo.png"
-          alt="icon"
+          src="images/phone.svg"
+          alt="icon-phone"
           class="icon"
         >
-        <p>
+        <a href="tel:+995591023023">
           +995 591 023 023
-        </p>
+        </a>
       </div>
       <div class="row lang">
         <button

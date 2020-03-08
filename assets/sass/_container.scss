@@ -9,15 +9,15 @@
   background-attachment: fixed;
   z-index: 0;
 
+  &.blur {
+    background-image: url('../../static/images/img3blur.jpg');
+  }
+
   .box {
     position: relative;
     height: 100vh;
     display: flex;
     align-items: center;
-  }
-
-  .blur {
-    backdrop-filter: blur(2px);
   }
 
   h1 {

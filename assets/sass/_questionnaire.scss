@@ -1,0 +1,15 @@
+.questionnaire {
+  width: 100%;
+  height: inherit;
+  text-align: center;
+  padding-top: 20px;
+
+  .title {
+    max-width: max-content;
+    padding: 14px 25px;
+    margin: 0 auto;
+    font-size: 22px;
+    color: $color-tertiary;
+    background-color: rgba($color-primary, 0.9);
+  }
+}
