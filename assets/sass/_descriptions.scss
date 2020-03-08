@@ -8,6 +8,10 @@
     color: $white;
     font-size: 24px;
     background-color: rgba($color-primary, 0.9);
+
+    &:first-letter {
+      text-transform: uppercase;
+    }
   }
 
   h3 {
