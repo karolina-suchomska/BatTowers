@@ -4,7 +4,7 @@
     <div :class="scroll ? 'blur' : ''" class="container">
       <div class="box">
         <h1>
-          Bat Towers Management
+          {{ lang.companyName }}
         </h1>
         <button
           v-if="!scroll"
@@ -55,12 +55,6 @@
         class="box"
       >
         <Questionnaire />
-      </div>
-      <div
-        id="gallery"
-        class="box"
-      >
-        Galeria
       </div>
     </div>
   </div>

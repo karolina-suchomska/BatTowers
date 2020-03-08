@@ -1,8 +1,8 @@
 .container {
   position: relative;
   height: 100%;
-  margin-left: 240px;
-  background-image: url('../../static/images/img3.jpg');
+  margin-left: 260px;
+  background-image: url('../../static/images/bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,7 @@
   z-index: 0;
 
   &.blur {
-    background-image: url('../../static/images/img3blur.jpg');
+    background-image: url('../../static/images/bgblur.jpg');
   }
 
   .box {
@@ -26,8 +26,9 @@
     right: 0;
     color: $color-secondary;
     background-color: rgba($white, 0.9);
-    font-size: 74px;
+    font-size: calc(50px + 1.5vw);
     padding: 40px 80px;
-    border-radius: 10px 0 0 10px;
+    margin-left: 50px;
+    text-transform: uppercase;
   }
 }

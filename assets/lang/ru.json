@@ -1,35 +1,36 @@
 {
+  "companyName": "Бат Тауэрс Менеджмент",
   "firstDescriptions": [
     {
-      "title": "Professional rental management",
+      "title": "профессиональное управление арендой",
       "content": "Powierzając nam zarządzanie wynajmem swojego apartamentu, możesz spać spokojnie - oddajesz go w ręce doświadczonych profesjonalistów. Zadbamy o to, żeby Twój apartament pracował dla Ciebie, zapewniając maksymalny zysk przy minimalnej stracie czasu, a Twoim gościom - spokój, komfort i obsługę na najwyższym poziomie.",
       "color": true
     },
     {
-      "title": "Wynajem długo- i krótkoterminowy",
+      "title": "долгосрочная и короткосрочная аренда",
       "content": "Dzięki nam możesz liczyć na zainteresowanie Twoim apartamentem zarówno wśród turystów, którzy do Batumi zawitali na kilka dni lub tygodni, jak i osób, które szukają w nim miejsca na dłużej.",
       "color": false
 
     },
     {
-      "title": "Europejski operator",
+      "title": "европейская управляющая компания",
       "content": "Zależy Ci na tym, aby wynajmem Twojego apartamentu zajmowali się specjaliści? Mamy 6 lat doświadczenia w obsłudze wynajmu w Wilnie, Warszawie i Berlinie.",
       "color": false
     }
   ],
   "secondDescriptions": [
     {
-      "title": "Długi pobyt właścicielski",
+      "title": "длительное пребывание владельца",
       "content": "Chcesz nie tylko zarabiać na swoim apartamencie, ale i samemu w nim wypocząć? Nie ma problemu, nasze elastyczne zasady dotyczące pobytów właścicielskich z pewnością będą Ci odpowiadać.",
       "color": false
     },
     {
-      "title": "Comiesięczne rozliczenia i przelewy",
+      "title": "ежемесячные отчёты и трансферы",
       "content": "Żadnych niespodzianek! Z nami wiesz dokładnie, ile w danym miesiącu zarobił dla Ciebie Twój apartament i ile dni spędzili w nim goście.",
       "color": true
     },
     {
-      "title": "Międzynarodowy marketing",
+      "title": "международный маркетинг",
       "content": "Nasz wielojęzyczny zespół zadba o to, żeby oferta Twojego apartamentu trafiła do wszystkich zainteresowanych - niezależnie od kraju, z którego przyjadą.",
       "color": false
     }
