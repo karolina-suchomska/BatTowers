@@ -125,6 +125,12 @@ export default {
         } else {
           this.scroll3 = true
         }
+      } else if (window.innerWidth < 850) {
+        if (window.scrollY > 50) {
+          this.blur = true
+        } else {
+          this.blur = false
+        }
       }
 
       if (window.innerHeight < 750) {

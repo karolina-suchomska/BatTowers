@@ -8,6 +8,21 @@
     <div class="text">
       <div class="row">
         <img
+          src="images/location.svg"
+          alt="icon-location"
+          class="icon"
+        >
+        <div>
+          <p
+            v-for="(location, index) in lang.locations"
+            :key="index"
+          >
+            {{ location }}
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <img
           src="images/mail.svg"
           alt="icon-mail"
           class="icon"
@@ -55,6 +70,11 @@
 
 <script>
 export default {
+  computed: {
+    lang () {
+      return this.$store.state.lang.lang
+    }
+  },
   methods: {
     changeLanguage (lang) {
       this.$store.commit('lang/setLanguage', lang)

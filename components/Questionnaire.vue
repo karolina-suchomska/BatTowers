@@ -44,7 +44,7 @@ export default {
   },
   methods: {
     readingHeight () {
-      if (window.innerWidth < 768) {
+      if (window.innerWidth < 850) {
         this.visible = false
       } else {
         this.visible = true

@@ -1,5 +1,9 @@
 {
   "companyName": "Bat Towers Management",
+  "locations": [
+    "14 Melashvili str.",
+    "6010 Batumi"
+  ],
   "firstDescriptions": [
     {
       "title": "Professional rental management",

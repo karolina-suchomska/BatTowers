@@ -50,6 +50,7 @@
   .belt {
     width: 100%;
     max-height: 100px;
+    margin-top: -1px;
 
     .img {
       max-width: 75px;
@@ -61,13 +62,22 @@
     .text {
       bottom: inherit;
       left: inherit;
-      top: 0;
+      top: -3px;
       right: 210px;
+      font-size: 14px;
 
       .lang {
         position: absolute;
         top: 12px;
         right: -200px;
+      }
+
+      .row {
+        margin: 10px 0;
+
+        p {
+          font-size: 14px;
+        }
       }
     }
   }
@@ -76,9 +86,7 @@
 @media (max-width: 500px) {
   .belt {
     .text {
-      top: 6px;
       right: 65px;
-      font-size: 14px;
 
       .row {
         min-width: 160px;
@@ -90,7 +98,7 @@
       }
 
       .lang {
-        top: -23px;
+        top: -15px;
         right: -107px;
         min-width: 140px;
         flex-direction: column;

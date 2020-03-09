@@ -38,7 +38,8 @@
 
   .box {
     position: relative;
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
   }
 
   h1 {
@@ -81,6 +82,20 @@
 @media (max-width: 850px) {
   .container {
     margin-left: 0;
+
+    .box {
+      display: flow-root;
+      min-height: inherit;
+
+      &:first-child {
+        padding-top: 28vh;
+        margin-bottom: 50px;
+      }
+    }
+
+    h1 {
+      position: initial;
+    }
   }
 }
 

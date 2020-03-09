@@ -1,6 +1,6 @@
 .questionnaire {
   width: 100%;
-  height: inherit;
+  height: 100vh;
   text-align: center;
   padding-top: 20px;
 
@@ -39,8 +39,11 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .questionnaire {
+    height: fit-content;
+    padding-top: 50px;
+
     .link {
       margin-top: 30px;
     }
