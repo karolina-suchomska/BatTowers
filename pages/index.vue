@@ -127,7 +127,7 @@ export default {
         }
       }
 
-      if (window.innerHeight < 600) {
+      if (window.innerHeight < 750) {
         this.scroll = true
         this.scroll2 = false
         this.scroll3 = false

@@ -19,3 +19,9 @@ iframe {
     width: 86%;
   }
 }
+
+@media (max-width: 750px) {
+  iframe {
+    display: none;
+  }
+}
