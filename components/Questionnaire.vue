@@ -7,6 +7,13 @@
       :src="lang.questionnaire"
       frameborder="0"
     />
+    <a
+      :href="lang.questionnaire"
+      target="_blank"
+      class="link"
+    >
+      {{ lang.goToQuestionnaire }}
+    </a>
   </div>
 </template>
 

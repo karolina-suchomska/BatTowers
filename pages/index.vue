@@ -1,14 +1,14 @@
 <template>
   <div class="general-container">
     <Belt />
-    <div :class="scroll ? 'blur' : ''" class="container">
+    <div :class="blur ? 'blur' : ''" class="container">
       <div class="box">
         <h1>
           {{ lang.companyName }}
         </h1>
         <button
           v-if="!scroll"
-          @click="clickToFirstDescriptions()"
+          @click="goTo('firstDescriptions')"
           class="btn-scroll"
         >
           <span />
@@ -25,7 +25,7 @@
         />
         <button
           v-if="scroll2"
-          @click="clickToSecondDescriptions()"
+          @click="goTo('secondDescriptions')"
           class="btn-scroll center"
         >
           <span />
@@ -42,7 +42,7 @@
         />
         <button
           v-if="scroll3"
-          @click="clickToQuestionnaire()"
+          @click="goTo('questionnaire')"
           class="btn-scroll center"
         >
           <span />
@@ -75,7 +75,8 @@ export default {
     return {
       scroll: false,
       scroll2: true,
-      scroll3: true
+      scroll3: true,
+      blur: false
     }
   },
   computed: {
@@ -98,41 +99,39 @@ export default {
   methods: {
     readingHeight () {
       if (window.scrollY > 200) {
+        this.blur = true
+      } else {
+        this.blur = false
+      }
+
+      if (window.innerWidth > 1200) {
+        if (window.scrollY > 200) {
+          this.scroll = true
+        } else {
+          this.scroll = false
+        }
+
+        if (window.scrollY > 1200) {
+          this.scroll2 = false
+        } else {
+          this.scroll2 = true
+        }
+
+        if (window.scrollY > 2000) {
+          this.scroll3 = false
+        } else {
+          this.scroll3 = true
+        }
+      }
+
+      if (window.innerHeight < 600) {
         this.scroll = true
-      } else {
-        this.scroll = false
-      }
-
-      if (window.scrollY > 1200) {
         this.scroll2 = false
-      } else {
-        this.scroll2 = true
-      }
-
-      if (window.scrollY > 2000) {
         this.scroll3 = false
-      } else {
-        this.scroll3 = true
       }
     },
-    clickToFirstDescriptions () {
-      document.getElementById('firstDescriptions').scrollIntoView(
-        {
-          behavior: 'smooth'
-        },
-        true
-      )
-    },
-    clickToSecondDescriptions () {
-      document.getElementById('secondDescriptions').scrollIntoView(
-        {
-          behavior: 'smooth'
-        },
-        true
-      )
-    },
-    clickToQuestionnaire () {
-      document.getElementById('questionnaire').scrollIntoView(
+    goTo (section) {
+      document.getElementById(section).scrollIntoView(
         {
           behavior: 'smooth'
         },

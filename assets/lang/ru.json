@@ -36,5 +36,6 @@
     }
   ],
   "questionnaireTitle": "Are you interested in our offer? Complete the survey so that we can contact you.",
-  "questionnaire": "https://forms.gle/ZX2X2tQcg8NNoFd28"
+  "questionnaire": "https://forms.gle/ZX2X2tQcg8NNoFd28",
+  "goToQuestionnaire": "Открыть опрос на новой странице"
 }

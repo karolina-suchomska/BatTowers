@@ -32,3 +32,42 @@
     text-transform: uppercase;
   }
 }
+
+@media (max-width: 1500px) {
+  .container {
+    h1 {
+      font-size: calc(40px + 1.5vw);
+    }
+  }
+}
+
+@media (max-width: 1330px) {
+  .container {
+    h1 {
+      font-size: calc(30px + 1.5vw);
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .container {
+    h1 {
+      font-size: calc(30px + 1vw);
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    h1 {
+      font-size: calc(26px + 1vw);
+      padding: 30px 40px;
+    }
+  }
+}
