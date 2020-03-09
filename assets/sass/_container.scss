@@ -10,9 +10,9 @@
 
   &.blur {
     background-image: url('../../static/images/bgblur.jpg');
-    animation: bgBlur 0.5s;
+    animation: bgBlur 1s;
     animation-iteration-count: 1;
-    -webkit-animation: bgBlur 0.5s;
+    -webkit-animation: bgBlur 1s;
     -webkit-animation-iteration-count: 1;
   }
 
@@ -39,8 +39,6 @@
   .box {
     position: relative;
     height: 100vh;
-    display: flex;
-    align-items: center;
   }
 
   h1 {
