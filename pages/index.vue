@@ -1,7 +1,10 @@
 <template>
   <div class="general-container">
     <Belt />
-    <div :class="blur ? 'blur' : ''" class="container">
+    <div
+      :class="blur ? 'blur' : ''"
+      class="container"
+    >
       <div class="box">
         <h1>
           {{ lang.companyName }}

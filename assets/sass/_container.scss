@@ -11,6 +11,30 @@
 
   &.blur {
     background-image: url('../../static/images/bgblur.jpg');
+    animation: bgBlur 0.5s;
+    animation-iteration-count: 1;
+    -webkit-animation: bgBlur 0.5s;
+    -webkit-animation-iteration-count: 1;
+  }
+
+  @-webkit-keyframes bgBlur {
+    0% {
+      background-image: url('../../static/images/bg.jpg');
+    }
+
+    100% {
+      background-image: url('../../static/images/bgblur.jpg');
+    }
+  }
+
+  @keyframes bgBlur {
+    0% {
+      background-image: url('../../static/images/bg.jpg');
+    }
+
+    100% {
+      background-image: url('../../static/images/bgblur.jpg');
+    }
   }
 
   .box {
