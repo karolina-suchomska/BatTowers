@@ -126,17 +126,15 @@ export default {
           this.scroll3 = true
         }
       } else if (window.innerWidth < 850) {
+        this.scroll = true
+        this.scroll2 = false
+        this.scroll3 = false
+
         if (window.scrollY > 50) {
           this.blur = true
         } else {
           this.blur = false
         }
-      }
-
-      if (window.innerHeight < 750) {
-        this.scroll = true
-        this.scroll2 = false
-        this.scroll3 = false
       }
     },
     goTo (section) {
