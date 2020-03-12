@@ -44,9 +44,6 @@ export default {
       }
     ]
   },
-  router: {
-    base: '/BatTowers/'
-  },
   css: [
     '@/assets/sass/main.scss'
   ],
