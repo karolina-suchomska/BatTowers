@@ -5,10 +5,10 @@
 
   h3,
   p {
-    width: 90%;
+    width: 86%;
     padding: 20px 40px;
     color: $white;
-    font-size: 24px;
+    font-size: 28px;
     background-color: rgba($color-primary, 0.9);
 
     &:first-letter {
@@ -17,7 +17,7 @@
   }
 
   h3 {
-    width: 50%;
+    width: 55%;
     color: $color-tertiary;
 
     &.white {
@@ -26,8 +26,7 @@
   }
 
   p {
-    text-align: right;
-    margin: 10px 50px;
+    margin: 20px 50px 50px;
     font-size: 22px;
   }
 }
@@ -40,11 +39,11 @@
     }
 
     h3 {
-      font-size: 22px;
+      font-size: 25px;
     }
 
     p {
-      margin: 5px 30px;
+      margin: 10px 30px 30px;
       font-size: 18px;
     }
   }
@@ -63,11 +62,11 @@
     }
 
     h3 {
-      font-size: 20px;
+      font-size: 22px;
     }
 
     p {
-      margin: 5px 20px;
+      margin: 5px 20px 10px;
       font-size: 16px;
     }
   }
@@ -79,10 +78,18 @@
   }
 }
 
+@media (max-width: 750px) {
+  .descriptions {
+    h3 {
+      width: 70%;
+    }
+  }
+}
+
 @media (max-width: 500px) {
   .descriptions {
     h3 {
-      font-size: 17px;
+      font-size: 20px;
     }
 
     p {

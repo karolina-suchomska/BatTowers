@@ -11,8 +11,8 @@
         </h1>
         <button
           v-if="!scroll"
-          @click="goTo('firstDescriptions')"
           class="btn-scroll"
+          @click="goTo('firstDescriptions')"
         >
           <span />
           <span />
@@ -28,8 +28,8 @@
         />
         <button
           v-if="scroll2"
-          @click="goTo('secondDescriptions')"
           class="btn-scroll center"
+          @click="goTo('secondDescriptions')"
         >
           <span />
           <span />
@@ -45,8 +45,8 @@
         />
         <button
           v-if="scroll3"
-          @click="goTo('questionnaire')"
           class="btn-scroll center"
+          @click="goTo('questionnaire')"
         >
           <span />
           <span />

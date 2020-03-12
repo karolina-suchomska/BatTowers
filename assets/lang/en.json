@@ -7,35 +7,30 @@
   "firstDescriptions": [
     {
       "title": "Professional rental management",
-      "content": "Powierzając nam zarządzanie wynajmem swojego apartamentu, możesz spać spokojnie - oddajesz go w\u00A0ręce doświadczonych profesjonalistów.Zadbamy o\u00A0to, żeby Twój apartament pracował dla Ciebie, zapewniając maksymalny zysk przy minimalnej stracie czasu, a\u00A0Twoim gościom - spokój, komfort i\u00A0obsługę na najwyższym poziomie.",
-      "color": true
+      "content": "You entrust us rental management of\u00A0your apartments- so\u00A0you may sleep quietly, because you give it\u00A0into\u00A0the\u00A0real professionals, who\u00A0bring you maximum earnings, and\u00A0having spent minimum of\u00A0your\u00A0time, and bring culm, comfort and\u00A0high level service.",
+      "color": false
     },
     {
       "title": "Long and short rentals",
-      "content": "Dzięki nam możesz liczyć na zainteresowanie Twoim apartamentem zarówno wśród turystów, którzy do Batumi zawitali na kilka dni lub tygodni, jak i\u00A0osób, które szukają w\u00A0nim miejsca na dłużej.",
+      "content": "Thanks to\u00A0us, you may expect to\u00A0expression of\u00A0interest in\u00A0your\u00A0apartments, not\u00A0only among tourists, who\u00A0want to visit Batumi some days or\u00A0weeks, but\u00A0also among those, who\u00A0are\u00A0eager to\u00A0stay in\u00A0Batumi longer.",
       "color": false
 
-    },
-    {
-      "title": "European operator",
-      "content": "Zależy Ci na tym, aby wynajmem Twojego apartamentu zajmowali się specjaliści? Mamy 6 lat doświadczenia w\u00A0obsłudze wynajmu w\u00A0Wilnie, Warszawie i\u00A0Berlinie.",
-      "color": true
     }
   ],
   "secondDescriptions": [
     {
       "title": "Long owner's stay",
-      "content": "Chcesz nie tylko zarabiać na swoim apartamencie, ale i\u00A0samemu w\u00A0nim wypocząć? Nie ma problemu, nasze elastyczne zasady dotyczące pobytów właścicielskich z\u00A0pewnością będą Ci odpowiadać.",
+      "content": "You want not\u00A0only to\u00A0earn on\u00A0your apartments, but\u00A0have a\u00A0rest yourself? No\u00A0problem, our\u00A0flexible rules, no\u00A0doubt, will\u00A0be\u00A0suitable for\u00A0you.",
       "color": false
     },
     {
       "title": "Monthly settlements and reports",
-      "content": "Żadnych niespodzianek! Z\u00A0nami wiesz dokładnie, ile w\u00A0danym miesiącu zarobił dla Ciebie Twój apartament i\u00A0ile dni spędzili w\u00A0nim goście.",
-      "color": true
+      "content": "No surprises! You will know, how\u00A0much money you have earned because of\u00A0your apartments and how\u00A0many days your guests have spent there.",
+      "color": false
     },
     {
       "title": "International marketing",
-      "content": "Nasz wielojęzyczny zespół zadba o\u00A0to, żeby oferta Twojego apartamentu trafiła do wszystkich zainteresowanych - niezależnie od kraju, z\u00A0którego przyjadą.",
+      "content": "Our multi-lingual team will do\u00A0everything possible to\u00A0offer the\u00A0renting of\u00A0your apartments to\u00A0all interested persons, any\u00A0country they are\u00A0from",
       "color": false
     }
   ],

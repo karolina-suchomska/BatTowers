@@ -43,23 +43,23 @@
       </div>
       <div class="row lang">
         <button
-          @click="changeLanguage('EN')"
           :class="$store.state.lang.selectedLang === 'EN' ? 'check' : ''"
           class="btn-lang"
+          @click="changeLanguage('EN')"
         >
           EN
         </button>
         <button
-          @click="changeLanguage('RU')"
           :class="$store.state.lang.selectedLang === 'RU' ? 'check' : ''"
           class="btn-lang"
+          @click="changeLanguage('RU')"
         >
           RU
         </button>
         <button
-          @click="changeLanguage('PL')"
           :class="$store.state.lang.selectedLang === 'PL' ? 'check' : ''"
           class="btn-lang"
+          @click="changeLanguage('PL')"
         >
           PL
         </button>

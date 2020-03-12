@@ -7,35 +7,30 @@
   "firstDescriptions": [
     {
       "title": "профессиональное управление арендой",
-      "content": "Powierzając nam zarządzanie wynajmem swojego apartamentu, możesz spać spokojnie - oddajesz go w\u00A0ręce doświadczonych profesjonalistów.Zadbamy o\u00A0to, żeby Twój apartament pracował dla Ciebie, zapewniając maksymalny zysk przy minimalnej stracie czasu, a\u00A0Twoim gościom - spokój, komfort i\u00A0obsługę na najwyższym poziomie.",
-      "color": true
+      "content": "Доверив нам управление арендой своих апартаментов, можете спать спокойно, так\u00A0как\u00A0отдаете их в\u00A0руки настоящих профессионалов, которые принесут Вам максимальную прибыль, потратив минимум Вашего времени, а Вашим гостям обеспечат покой, комфорт и\u00A0обслуживание на\u00A0высшем уровне.",
+      "color": false
     },
     {
       "title": "долгосрочная и короткосрочная аренда",
-      "content": "Dzięki nam możesz liczyć na zainteresowanie Twoim apartamentem zarówno wśród turystów, którzy do Batumi zawitali na kilka dni lub tygodni, jak i\u00A0osób, które szukają w\u00A0nim miejsca na dłużej.",
+      "content": "Благодаря нам Вы можете рассчитывать на\u00A0проявленный интерес к\u00A0Вашим апартаментам, как\u00A0среди тех туристов, которые\u00A0хотят побыть в\u00A0Батуми несколько дней или недель, так\u00A0и\u00A0среди тех людей, которые хотят остаться в\u00A0Батуми подольше.",
       "color": false
 
-    },
-    {
-      "title": "европейская управляющая компания",
-      "content": "Zależy Ci na tym, aby wynajmem Twojego apartamentu zajmowali się specjaliści? Mamy 6 lat doświadczenia w\u00A0obsłudze wynajmu w\u00A0Wilnie, Warszawie i\u00A0Berlinie.",
-      "color": true
     }
   ],
   "secondDescriptions": [
     {
       "title": "длительное пребывание владельца",
-      "content": "Chcesz nie tylko zarabiać na swoim apartamencie, ale i\u00A0samemu w\u00A0nim wypocząć? Nie ma problemu, nasze elastyczne zasady dotyczące pobytów właścicielskich z\u00A0pewnością będą Ci odpowiadać.",
+      "content": "Вы хотите не\u00A0только зарабатывать на\u00A0своих апартаментах, но\u00A0и\u00A0сами в них отдыхать? Нет проблем, наши гибкие правила без сомнения будут подходящими для\u00A0Вас.",
       "color": false
     },
     {
       "title": "ежемесячные отчёты и трансферы",
-      "content": "Żadnych niespodzianek! Z\u00A0nami wiesz dokładnie, ile w\u00A0danym miesiącu zarobił dla Ciebie Twój apartament i\u00A0ile dni spędzili w\u00A0nim goście.",
-      "color": true
+      "content": "Никаких сюрпризов! С нами Вы будете знать, сколько в\u00A0данном месяце заработали Ваши апартаменты и\u00A0сколько дней провели в\u00A0них гости.",
+      "color": false
     },
     {
       "title": "международный маркетинг",
-      "content": "Nasz wielojęzyczny zespół zadba o\u00A0to, żeby oferta Twojego apartamentu trafiła do wszystkich zainteresowanych - niezależnie od kraju, z\u00A0którego przyjadą.",
+      "content": "Наша многоязычная команда сделает все возможное, чтобы предложение аренды ваших апартаментов, попало ко\u00A0всем заинтересованным лицам, независимо от\u00A0страны, из\u00A0которой они приедут.",
       "color": false
     }
   ],
