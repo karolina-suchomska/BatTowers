@@ -4,6 +4,7 @@
       src="images/logo.png"
       alt="logo"
       class="img"
+      @click="scrollTo()"
     >
     <div class="text">
       <div class="row">
@@ -78,6 +79,14 @@ export default {
   methods: {
     changeLanguage (lang) {
       this.$store.commit('lang/setLanguage', lang)
+    },
+    scrollTo () {
+      document.getElementById('scrollToUp').scrollIntoView(
+        {
+          behavior: 'smooth'
+        },
+        true
+      )
     }
   }
 }

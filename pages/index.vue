@@ -1,5 +1,8 @@
 <template>
-  <div class="general-container">
+  <div
+    id="scrollToUp"
+    class="general-container"
+  >
     <Belt />
     <div
       :class="blur ? 'blur' : ''"
